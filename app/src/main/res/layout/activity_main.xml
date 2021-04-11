@@ -63,12 +63,13 @@
                 android:background="@drawable/border"
                 android:digits="0123456789"
                 android:hint="1  2  3  4"
+                android:textStyle="bold"
                 android:inputType="number"
                 android:textAlignment="center"
                 app:mask="# # # #" />
 
             <com.santalu.maskara.widget.MaskEditText
-
+                android:textStyle="bold"
                 android:layout_width="0dp"
                 android:layout_height="40dp"
                 android:layout_marginStart="10dp"
@@ -82,7 +83,7 @@
                 app:mask="# # # #" />
 
             <com.santalu.maskara.widget.MaskEditText
-
+                android:textStyle="bold"
                 android:layout_width="0dp"
                 android:layout_height="40dp"
                 android:layout_marginStart="10dp"
